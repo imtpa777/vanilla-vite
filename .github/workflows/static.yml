@@ -37,9 +37,9 @@ jobs:
             node-version: 20.12
             cache: 'npm'
       - name: Install Dependencies
-      - run: npm install
+        run: npm install
       - name: Build
-      - run: npm run build
+        run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
